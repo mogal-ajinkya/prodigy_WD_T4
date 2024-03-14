@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 function getleetcode() {
-  // https://leetcode-api-faisalshohag.vercel.app/mogal_ajinkya
+  // https://leetcode-api-faisalshohag.vercel.app/userid
 }
 function Profile() {
     const [val , setval] = useState(300);
@@ -26,7 +26,7 @@ function Profile() {
             {/* name link  */}
             <div className="flex  mt-2 text-xl">
             <p className="my-2">leetcode</p>
-            <a href="https://leetcode.com/mogal_ajinkya/" target="_blank" >
+            <a href="https://leetcode.com/ajinkya/" target="_blank" >
             <img
                 className="w-4 h-4 mx-1 my-4"
                 src={require("../assets/link-logo.png")}
@@ -59,7 +59,7 @@ function Profile() {
             {/* name link  */}
             <div className="flex  mt-2 text-xl">
             <p className="my-2">Codechef</p>
-            <a href="https://www.codechef.com/users/mogal_ajinkya" target="_blank" >
+            <a href="https://www.codechef.com/users/ajinkya" target="_blank" >
             <img
                 className="w-4 h-4 mx-1 my-4"
                 src={require("../assets/link-logo.png")}
@@ -93,7 +93,7 @@ function Profile() {
             {/* name link  */}
             <div className="flex  mt-2 text-xl">
             <p className="my-2">Codeforces</p>
-            <a href="https://auth.geeksforgeeks.org/user/mogalajinkya01" target="_blank" >
+            <a href="https://auth.geeksforgeeks.org/user/ajinkya" target="_blank" >
             <img
                 className="w-4 h-4 mx-1 my-4"
                 src={require("../assets/link-logo.png")}
@@ -126,7 +126,7 @@ function Profile() {
             {/* name link  */}
             <div className="flex  mt-2 text-xl">
             <p className="my-2">Codeforces</p>
-            <a href="https://codeforces.com/profile/Ajinkya2901" target="_blank" >
+            <a href="https://codeforces.com/profile/Ajinkya" target="_blank" >
             <img
                 className="w-4 h-4 mx-1 my-4"
                 src={require("../assets/link-logo.png")}

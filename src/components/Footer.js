@@ -4,7 +4,7 @@ function Footer() {
     <div className="w-5/6 mx-auto p-10">
       <div className="w-2/12 mx-auto flex justify-evenly">
         <div className=" background-black rounded-full p-1">
-          <a href="https://www.linkedin.com/in/ajinkya-mogal-887418229/" target="_blank">
+          <a href="https://www.linkedin.com/in/ajinkya/" target="_blank">
             <img
               src={require("../assets/linkedin.png")}
               alt="ln"
@@ -24,7 +24,7 @@ function Footer() {
           </a>
         </div>
         <div className="background-black rounded-full p-1">
-          <a href="https://github.com/mogal-ajinkya" target="_blank">
+          <a href="https://github.com/ajinkya" target="_blank">
             <img
               className="object-center"
               src={require("../assets/github.png")}
@@ -35,7 +35,7 @@ function Footer() {
           </a>
         </div>
         <div className="background-black rounded-full p-1">
-          <a href="https://twitter.com/mogal_ajinkya" target="_blank">
+          <a href="https://twitter.com/ajinkya" target="_blank">
             <img
               src={require("../assets/x.png")}
               alt="tw"
